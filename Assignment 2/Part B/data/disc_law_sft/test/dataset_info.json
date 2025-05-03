@@ -1,0 +1,46 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "disc-law-sft",
+  "dataset_size": 84424585,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/ShengbinYue/DISC-Law-SFT@a836772ed8525ee57720b03a1ddda98cc5c552a7/DISC-Law-SFT-Triplet-QA-released.jsonl": {
+      "num_bytes": 85520456,
+      "checksum": null
+    }
+  },
+  "download_size": 85520456,
+  "features": {
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 169945041,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 84424585,
+      "num_examples": 23331,
+      "dataset_name": "disc-law-sft"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
